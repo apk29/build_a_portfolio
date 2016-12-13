@@ -20,9 +20,6 @@
     padding-top: 1%;
 }
 
-.main {max-width: 100%;
-}
-
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -36,3 +33,17 @@
     letter-spacing: 2px;
 /*text-shadow: 3px 3px #ccc;*/
 }
+
+.work {
+
+}
+
+.work h3 {
+    text-align: center;
+    color: #777;
+}
+
+@media screen and (min-width: 768px) {
+    .name {
+        text-align: right;
+    }
