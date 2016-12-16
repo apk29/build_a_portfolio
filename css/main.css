@@ -1,47 +1,88 @@
-.NAME h3 {text-align: right;
-    color: #f68e22;
+/* {
+   outline: 1px solid red !important;
 }
 
-.NAME h4 {text-align: right;
-    color: red;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+/* Zocial icons*/
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+
 }
-
-.header {background-color: white;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-
-}
-
-.row {
-    border: grey;
+img {
+    max-width: 100%;
 }
 
 .LOGO {
-    padding-top: 1%;
+
+    padding-top: 1%
 }
-
-.container-fluid {
-
+/* PERRY KONGRUNGPARKORN*/
+.NAME h3 {
+    text-align: right;
+    color: #f68e22;
 }
-
-.under-main {
+/* FULL STACK DEVELOPER CALL OUT*/
+.NAME h4 {
+    text-align: right;
     color: #777;
+}
+
+/* TOP ROW CALL OUT WITH LOGO, NAME, TITLE*/
+.header {
+    border-bottom: 1px solid #ddd;
+}
+
+/* MAIN PICTURE CALL OUT*/
+.main {
+    padding-top: 7px;
+}
+
+/* FEATURED WORK*/
+.under-main {
+    color: #f68e22;
     letter-spacing: 2px;
-/*text-shadow: 3px 3px #ccc;*/
+    text-align: left;
+}
+
+/* DISCRIPTION OF THE THREE SMALL PICTURES*/
+.work a {
+    color: #f68e22;
 }
 
 .work {
+     border-bottom: 1px solid #ddd;
 }
 
-.work h3 {
-    text-align: center;
+article {
+  margin: 0 auto;
+  max-width: 800px;
+  color: #777;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-.work h3 a {
-    color: #777;
+footer {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-@media screen and (min-width: 990px) {
-    .work {
+footer a {
+     color: #f68e22;
+     margin: 0 auto;
+     text-align: center;
 
-    }
+}

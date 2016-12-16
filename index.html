@@ -1,85 +1,118 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <meta name="description" content="Build a Portfolio Project" />
-  <meta name="author" content="Perry Kong">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="normalize-css.googlecode.com/svn/trunk/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <title>My Portfolio</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <meta name="description" content="Build a Portfolio Project" />
+    <meta name="author" content="Perry Kong">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<link rel="stylesheet" href="normalize-css.googlecode.com/svn/trunk/normalize.css">-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>My Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
 
 </head>
 
 <body>
-<!--header code-->
-<div class="container">
-    <div class="header">
+    <!--header code-->
+    <div class="container">
+        <div class="header">
 
-<!--first row code-->
-      <div class="row">
-        <div class="LOGO col-md-4 col-sm-4 col-xs-12">
-          <img class="img-responsive" class="img-circle" width="60px" height="60px" src="img/udacity.svg" alt="Udacity Logo">
+            <!--first row code-->
+            <div class="row">
+                <div class="LOGO col-md-4 col-sm-4 col-xs-12">
+                    <img class="img-responsive" width="60px" height="60px" src="img/udacity.svg" srcset="" alt="Udacity Logo">
+                </div>
+                <div class="NAME col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-12">
+                    <h3>
+                        PERRY KONGRUNGPARKORN
+                    </h3>
+                    <h4>
+                        FULL STACK DEVELOPER
+                    </h4>
+                </div>
+            </div>
         </div>
-        <div class="NAME col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-2 col-xs-12">
-          <h3>
-            PERRY KONGRUNGPARKORN
-          </h3>
-          <h4>
-            FULL STACK DEVELOPER
-          </h4>
+
+
+        <!--main picture-->
+
+        <div class="main">
+            <div class="row">
+                <div class="col-md-12">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="img/main_2048.jpg 2x, img/main1080.jpg" />
+                        <source media="(min-width: 768px)" srcset="img/main_768.jpg" />
+                        <source media="(min-width: 320px)" srcset="img/main_320.jpg" />
+                        <img src="img/main1080.jpg" width="1140px" height="431.5px" id="header" class="img-responsive" alt="Grand Canyon image">
+                        <figcaption>South Rim</figcaption>
+                    </picture>
+                </div>
+            </div>
         </div>
-      </div>
+
+
+        <!--Featured Work section-->
+
+        <div class="under-main">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+        </div>
+
+        <!--three pictures across section-->
+
+        <div class="work row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="img/bean.jpg" class="img-responsive" alt="image of the bean in Chicago">
+                <h3>
+                    <a href="https://github.com/apk29/build_a_portfolio.git">The Bean</a>
+                </h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="img/road.jpg" class="img-responsive" alt="image of a road in Death Valley">
+                <h3>
+                    <a href="https://github.com/apk29/build_a_portfolio.git">Death Valley</a>
+                </h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="img/utah.jpg" class="img-responsive" alt="image of Bryce Canyon National Park">
+                <h3>
+                    <a href="https://github.com/apk29/build_a_portfolio.git">Bryce Canyon</a>
+                </h3>
+            </div>
+        </div>
+
+        <article>
+            <div class="article">
+
+                <p>
+                    My road trip across the US in May of 2015. We started out in Los Angeles, went to Vegas and all the way to Releigh, North Carolina. From there, Washington D.C., New York City, and then Montreal and Toronto. We came back in through Michigan, down through Colorado, back to Las Vegas, and finally home. It was a nice break before moving to the bay area.
+                </p>
+
+            </div>
+        </article>
+
+        <footer>
+            <div id="social" class="social">
+                <div class="col-md-12">
+                    <a href="https://github.com/apk29/build_a_portfolio.git" class="zocial-twitter">Twitter</a>
+                    <a href="https://github.com/apk29/build_a_portfolio.git" class="zocial-facebook">Facebook</a>
+                    <a href="https://github.com/apk29/build_a_portfolio.git" class="zocial-googleplus">Google+</a>
+                    <a href="https://github.com/apk29/build_a_portfolio.git" class="zocial-digg">Digg</a>
+                </div>
+                <a href="//https://github.com/apk29/build_a_portfolio.git" id="viewSource">View source on GitHub</a>
+            </div>
+        </footer>
+
+
     </div>
-
-<!--main picture-->
-  <div class="container-fluid">
-    <div class="main">
-      <div class="row">
-        <img src="img/main2.jpg" id="header" class="img-responsive" alt="Grand Canyon image">
-      </div>
-    </div>
-  </div>
-
-<!--Featured Work section-->
-<div class="container-fluid">
-  <div class="under-main">
-    <div class="row">
-      <h2>Featured Work</h2>
-    </div>
-  </div>
-</div>
-
-<!--three pictures across section-->
-<div class="work row">
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    <img src="img/bean.jpg" alt="image of the bean in Chicago">
-      <h3>
-        <a href="https://github.com/apk29/build_a_portfolio.git">The Bean</a>
-      </h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    <img src="img/road.jpg" alt="image of a road in Death Valley">
-      <h3>
-        <a href="https://github.com/apk29/build_a_portfolio.git">Death Valley</a>
-      </h3>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    <img src="img/utah.jpg" alt="image of Bryce Canyon National Park">
-      <h3>
-        <a href="https://github.com/apk29/build_a_portfolio.git">Bryce Canyon</a>
-      </h3>
-  </div>
-</div>
-
-
-</div>
-
 
 
 </body>
