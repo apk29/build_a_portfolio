@@ -22,45 +22,44 @@ img {
     max-width: 100%;
 }
 
-.LOGO {
-
-    padding-top: 1%
+.logo {
+  padding-top: 1%
 }
 /* PERRY KONGRUNGPARKORN*/
 .NAME h3 {
-    text-align: right;
-    color: #f68e22;
+  text-align: right;
+  color: #f68e22;
 }
 /* FULL STACK DEVELOPER CALL OUT*/
 .NAME h4 {
-    text-align: right;
-    color: #777;
+  text-align: right;
+  color: #777;
 }
 
 /* TOP ROW CALL OUT WITH LOGO, NAME, TITLE*/
 .header {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 /* MAIN PICTURE CALL OUT*/
 .main {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 /* FEATURED WORK*/
 .under-main {
-    color: #f68e22;
-    letter-spacing: 2px;
-    text-align: left;
+  color: #f68e22;
+  letter-spacing: 2px;
+  text-align: left;
 }
 
 /* DISCRIPTION OF THE THREE SMALL PICTURES*/
 .work a {
-    color: #f68e22;
+  color: #f68e22;
 }
 
 .work {
-     border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 article {
@@ -81,8 +80,7 @@ footer {
 }
 
 footer a {
-     color: #f68e22;
-     margin: 0 auto;
-     text-align: center;
-
+  color: #f68e22;
+  margin: 0 auto;
+  text-align: center;
 }
